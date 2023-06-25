@@ -1,9 +1,52 @@
+
+
 body {
-    background-color: #486e6b;
-    color: #e8bcdf;
-    font-family:Helvetica, "Neue Haas Grotesk", sans-serif;
+    background-color: #fff;
+    font-family: "Forma DJR Text", Helvetica, sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
 }
+
+h1 {
+    font-size: 48px;
+    color: #26635c;
+    margin: 60px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #26635c;
+}
+
 
 a {
     color: #c6deef;
+}
+
+.recipes {
+    display:flex;
+    gap:32px;
+    font-size: 32px;
+    padding:0;
+    list-style-type: none;
+    text-align:left;
+}
+
+.recipes a {
+    color: #26635c;
+    text-decoration:none;
+}
+
+.recipes li {
+    background-color: #d6c7f5;
+    border-radius: 8px;
+    padding: 32px;
+    height: 200px;
+    flex:1;
+
+}
+
+.recipes li:hover a {
+    color: #d6c7f5;
+}
+
+.recipes li:hover {
+    background-color: #26635c;
 }
